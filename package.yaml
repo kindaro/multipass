@@ -1,0 +1,11 @@
+license: ISC
+
+ghc-options: -Wall -Wno-name-shadowing
+
+dependencies:
+    - base >4 && <5
+    - algebra
+    - echo
+
+executable:
+    main: Main.hs
